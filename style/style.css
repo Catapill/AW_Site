@@ -347,7 +347,7 @@ a:active {
 /** Color Fade Animation **/
 
 .float_container {
-	dipsplay:inline;
+	display:inline;
 	white-space: nowrap;
 }
 .fade {
@@ -790,6 +790,7 @@ a:active {
 		background-size: 90px;
 	}
 }
+
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
 	.bridge {
@@ -909,6 +910,189 @@ a:active {
 	}
 	#parallax_3 {
 		background-size: 80px;
+	}
+	#cursor {
+		display:none;
+	}
+	#cursor2 {
+		display:none;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.title {
+		margin: 15vw 0 15vw 0;
+	}
+	.title h1 {
+		margin: 0px;
+		font-size: 6em;
+	}
+	.title p{
+		font-size: 2em;
+		margin: 0px 0px 2vw 7%;
+	}
+	.lines{
+		height:30px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.info {
+		width:auto;
+		font-size: 1.3em;
+		float:right;
+		text-align:right;
+		margin: 15vw 0 15vw 0;
+	}
+	.nav {
+		display:none;
+	}
+	.bridge {
+		display:flex;
+		height: 7vw;
+		position: absolute;
+		top:21.5%;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.media_box {
+		width: 100%;
+		height:10vw;
+		border-radius:5px;
+	}
+	.media_box a {
+		width:35px;
+		height:35px;
+		border-radius:10px;
+	}
+	.media_icon {
+		width:35px;
+		height:35px;
+	}
+	.intro {
+		padding-top:8vw;
+	}
+	.services {
+		margin: 15vw 0px;
+	}
+	.service_icon {
+		height: 25px;
+		margin: 2vw;
+	}
+	.services {
+		margin: 0vw 0px 0px 0px;
+		font-size:1.7em;
+	}
+	.service {
+		width:21%;
+		height:26vw;
+		margin: 0vw 2vw;
+	}
+	.skills {
+		margin: 3vw 0px 10vw 0px;
+	}
+	.skill {
+		width:16%;
+		height:7.5vw;
+		margin: 0vw 1.2vw;
+	}
+	.skill_icon {
+		height: 25px;
+	}
+	.skill h3 {
+		font-size:1.2	em;
+		font-weight:600;
+		margin: 3vw 0vw 3vw 1vw;
+	}
+	.works {
+		background-color: #0D0A15;
+		background-image: url("../images/logo_background.svg");
+		padding: 0vw 0px 4vw 0px;
+		background-size: 100vw;
+		background-repeat: none;
+		overflow: hidden;
+	}
+
+	.project_container {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-evenly;
+		justify-items: center;
+		align-content: space-evenly;
+		align-items: center;
+		width:75%;
+		margin:auto;
+	}
+	.project {
+		margin:1vw;
+		padding:1vw;
+		border: 0.2vw solid #E55F5D;
+		border-radius:10px;
+		text-align:center;
+		width:31vw;
+		height:34vw;
+	}
+	.project p {
+		font-weight:300;
+		font-size:2em;
+	}
+	.proj_title {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 5vw;
+	}
+	.proj_title h3 {
+		margin: 0px;
+		font-size:1.6em;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 0px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+	.proj_icon {
+		height:25px;
+	}
+	.header {
+		font-size: 2em;
+	}
+	.header img {
+		width:35px;
+	}
+	.lines{
+		display:none;
+	}
+	.dots {
+		height:5px;
+	}
+	.logo {
+		width:50px;
+		margin-left:44%;
+	}
+	.line{
+		padding-left:5vw;
+	}
+	.code-editor {
+		line-height:1.2vw;
+		font-size:1.2vw;
+	}
+	.contact .contact_info {
+		margin: 0px 20vw;
+		font-size: 1.5em;
+	}
+	.footer {
+		font-size: 0.8em;
+	}
+	#parallax_1 {
+		background-size: 700px;
+	}
+	#parallax_2 {
+		background-size: 600px;
+	}
+	#parallax_3 {
+		background-size: 70px;
 	}
 	#cursor {
 		display:none;

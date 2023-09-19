@@ -11,16 +11,6 @@ function scrollToElement(id) {
 	var elmntToView = document.getElementById(id);
 	elmntToView.scrollIntoView({behavior: "smooth", inline: "nearest" }); 
 }
-const span = document.getElementById("email");
-
-function copy(that){
-	var inp =document.createElement('input');
-	document.body.appendChild(inp)
-	inp.value =that.textContent
-	inp.select();
-	document.execCommand('copy',false);
-	inp.remove();
-}
 </script>
 </head>
 <body>
@@ -41,9 +31,9 @@ function copy(that){
 					<img class="lines" src="images/lines.svg">
 				</div>
 				<div class="info start_box">
-					<p>A data analyst and graduate of <br>Northumbria University where I studied <br>Computer Science with Artificial Intelligence.</p>
+					<p>A data analyst and graduate of Northumbria University where I studied Computer Science with Artificial Intelligence.</p>
 					<img class="dots info_dot" src="images/dots.svg">
-					<p>I utilise data, delivering insights to improve<br> performance and help understanding.</p>
+					<p>I utilise data, delivering insights to improve performance and help understanding.</p>
 				</div>
 			</div>
 			<div class="float_container">
@@ -69,7 +59,7 @@ function copy(that){
 				<div class="service">
 					<img class="service_icon" src="images/data_process.svg">
 					<h3>Data Processing</h3>
-					<p>Processing large amounts of data from various sources in order to deliver insights and automated reporting.</p>
+					<p>Processing large amounts of data from various sources in order to deliver insights and automate reporting.</p>
 				</div>
 				<div class="service">
 					<img class="service_icon" src="images/data_analysis.svg">
@@ -165,7 +155,7 @@ function copy(that){
 				
 				<div class="project">
 					<div class="proj_title">
-						<img class="proj_icon" src="images/tug.svg">
+						<img class="proj_icon" src="images/mandelbrot.svg">
 						<h3>Mandelbrot Approximator </h3>
 						<a href="https://github.com/Catapill"><img class="proj_icon" src="images/githubLogo.svg"></a>
 					</div>
@@ -176,7 +166,7 @@ function copy(that){
 				
 				<div class="project">
 					<div class="proj_title">
-						<img class="proj_icon" src="images/tug.svg">
+						<img class="proj_icon" src="images/time.svg">
 						<h3>More Coming Soon!</h3>
 						<a href="https://github.com/Catapill"><img class="proj_icon" src="images/githubLogo.svg"></a>
 					</div>
@@ -242,11 +232,10 @@ function copy(that){
 	</div>
 <div id="cursor"></div>
 <div id="cursor2"></div>
-
+	
 <script>
 	var cursor = document.getElementById("cursor")
 	var cursor2 = document.getElementById("cursor2")
-
 	document.onmousemove = function(e){
 		cursor.style.left = (e.pageX - 3) + "px";
 		cursor.style.top = (e.pageY - 3) + "px";

@@ -901,6 +901,21 @@ a:active {
 		z-index:2;
 		transition: filter 0.3s;
 	}
+	#parallax_1 {
+		background-size: 900px;
+	}
+	#parallax_2 {
+		background-size: 700px;
+	}
+	#parallax_3 {
+		background-size: 80px;
+	}
+	#cursor {
+		display:none;
+	}
+	#cursor2 {
+		display:none;
+	}
 }
 /*tablets, ipads (portrait)*/
 @media (min-width: 768px) and (max-width: 850px) {
@@ -1068,6 +1083,21 @@ a:active {
 	}
 	.footer {
 		font-size: 0.8em;
+	}
+	#parallax_1 {
+		background-size: 700px;
+	}
+	#parallax_2 {
+		background-size: 600px;
+	}
+	#parallax_3 {
+		background-size: 70px;
+	}
+	#cursor {
+		display:none;
+	}
+	#cursor2 {
+		display:none;
 	}
 }
 
@@ -1237,6 +1267,21 @@ a:active {
 	}
 	.footer {
 		font-size: 0.8em;
+	}
+	#parallax_1 {
+		background-size: 600px;
+	}
+	#parallax_2 {
+		background-size: 500px;
+	}
+	#parallax_3 {
+		background-size: 60px;
+	}
+	#cursor {
+		display:none;
+	}
+	#cursor2 {
+		display:none;
 	}
 }
 
@@ -1410,6 +1455,21 @@ a:active {
 	.footer {
 		font-size: 0.8em;
 	}
+	#parallax_1 {
+		background-size: 500px;
+	}
+	#parallax_2 {
+		background-size: 400px;
+	}
+	#parallax_3 {
+		background-size: 50px;
+	}
+	#cursor {
+		display:none;
+	}
+	#cursor2 {
+		display:none;
+	}
 }
 
 /*Tiny Screens (portrait)*/
@@ -1581,6 +1641,21 @@ a:active {
 	}
 	.footer {
 		font-size: 0.8em;
+	}
+	#parallax_1 {
+		background-size: 400px;
+	}
+	#parallax_2 {
+		background-size: 300px;
+	}
+	#parallax_3 {
+		background-size: 50px;
+	}
+	#cursor {
+		display:none;
+	}
+	#cursor2 {
+		display:none;
 	}
 }
 

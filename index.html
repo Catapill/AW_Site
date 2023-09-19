@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Adam Woods</title>
+<meta name="description" content="Experienced data scientist">
+<meta name="keywords" content="data scientist machine learning">
+<link rel="stylesheet" href="style/style.css">
+<link rel="icon" type="icon" href="img/aw_logo_white.svg">
+<script src=" https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js "></script>
+<script>
+function scrollToElement(id) {
+	var elmntToView = document.getElementById(id);
+	elmntToView.scrollIntoView({behavior: "smooth", inline: "nearest" }); 
+}
+const span = document.getElementById("email");
+
+function copy(that){
+	var inp =document.createElement('input');
+	document.body.appendChild(inp)
+	inp.value =that.textContent
+	inp.select();
+	document.execCommand('copy',false);
+	inp.remove();
+}
+</script>
+</head>
+<body>
+	<div id="parallax_1">
+	<div id="parallax_2">
+	<div id="parallax_3">
+		<div class="home">
+			<img src="images/aw_logo_white.svg" class="logo">
+			<ul class="nav">
+				<li><a class="nav_link" href="index.html#Intro">Skills</a></li>
+				<li><a class="nav_link" href="index.html#Works">Works</a></li>
+				<li><a class="nav_link" href="index.html#About">About</a></li>
+			</ul>
+			<div class="start">
+				<div class="title start_box">
+					<p>Hello! I'm</p>
+					<h1>ADAM<br>WOODS</h1>
+					<img class="lines" src="images/lines.svg">
+				</div>
+				<div class="info start_box">
+					<p>A data analyst and graduate of <br>Northumbria University where I studied <br>Computer Science with Artificial Intelligence.</p>
+					<img class="dots info_dot" src="images/dots.svg">
+					<p>I utilise data, delivering insights to improve<br> performance and help understanding.</p>
+				</div>
+			</div>
+			<div class="float_container">
+				<img class="fade floating-div" src="images/fade_2.svg">
+				<img class="fade floating-div2" src="images/fade_2.svg">
+			</div>
+		</div>
+        <div class="bridge">
+			<div class="media_box">
+				<a href="https://www.linkedin.com/in/adamwoods-datascience"><img class="media_icon" src="images/inLogo.svg"></a>
+				<a href="https://github.com/Catapill"><img class="media_icon" src="images/githubLogo.svg"></a>
+				<a href="https://bitbucket.org/adamwoods13"><img class="media_icon" src="images/bitbucketLogo.svg"></a>
+				<a href = "mailto: adam@adamwoods.dev?subject = Hello"><img class="media_icon" src="images/gmailLogo.svg"></a>
+				<a href="files/AdamWoods.pdf" target="_blank"><img class="media_icon" src="images/cv_icon.svg"></a>
+			</div>
+		</div>
+		<div class="intro" id="Intro">
+			<div class="header">
+				<h2 class="section_title">My Skills</h2>
+				<img src="images/zig.svg">
+			</div>
+			<div class="services">
+				<div class="service">
+					<img class="service_icon" src="images/data_process.svg">
+					<h3>Data Processing</h3>
+					<p>Processing large amounts of data from various sources in order to deliver insights and automated reporting.</p>
+				</div>
+				<div class="service">
+					<img class="service_icon" src="images/data_analysis.svg">
+					<h3>Data Analysis</h3>
+					<p>Investigate trends and anomalies to solve problems, extract information and allow for more informed decision making.</p>
+				</div>
+				<div class="service">
+					<img class="service_icon" src="images/machine_learning.svg">
+					<h3>Machine Learning</h3>
+					<p>Large projects allowing for adaptive problem solving and long term solutions for complex requirements.</p>
+				</div>
+			</div>
+			<div class="skills">
+				<div class="skill">
+					<img class="skill_icon" src="images/python.svg">
+					<h3>Python</h3>
+				</div>
+				<div class="skill">
+					<img class="skill_icon" src="images/sql.svg">
+					<h3>SQL</h3>
+				</div>
+				<div class="skill">
+					<img class="skill_icon" src="images/powerbi.svg">
+					<h3>Power BI</h3>
+				</div>
+				<div class="skill">
+					<img class="skill_icon" src="images/java.svg">
+					<h3>Java</h3>
+				</div>
+			</div>
+		</div>
+		<div class="works" id="Works">
+			<div class="header">
+				<h2 class="section_title">Works</h2>
+				<img src="images/zig.svg">
+			</div>
+			<div class="project_container">
+			
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/exoplanet.svg">
+						<h3>Exoplanets</h3>
+						<a href="https://bitbucket.org/adamwoods13/exo-planet/src/main/"><img class="proj_icon" src="images/bitbucketLogo.svg"></a>
+					</div>
+					<p>Light curves allow us to get a glimpse of the activity around very distant stars. This project used several machine learning models along with NASA's Exoplanet Archive data to predtict if a star has an orbiting planet.</p>
+					<p>The project taught me a lot about machine learning and complex data processing as well as interfacing with API's.</p>
+					<p class="proj_date">Completed: 19/05/2021</p>
+				</div>
+				
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/music.svg">
+						<h3>Music Analysis</h3>
+						<a href="https://www.adamwoods.dev/#/"><img class="proj_icon" src="images/download.svg"></a>
+					</div>
+					<p>As a personal project I wanted to get a automated report of my monthly new music playlists on Spotify. I used Spotify's API and Python to generate a html report showing statistics for a month based on a playlist link.</p>
+					<p>This ended up being a very long term project as I have been improving and restructuring it over several years so I ended up getting a lot out of this project.</p>
+					<p class="proj_date">Completed: 24/04/2023</p>
+				</div>
+				<!--
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/payment.svg">
+						<h3>Payment Classification</h3>
+						<a href="https://www.adamwoods.dev/#/"><img class="proj_icon" src="images/githubLogo.svg"></a>
+					</div>
+					<p>My first major professional project was to try and improve efficiency of activity sent to accounts by predicting if an account was likely to make a payment using the limited initial data we recieve on given accounts.</p>
+					<p>The project gave me a lot of experience on robust development of machine learning systems and how to further process machine learning outputs to paint a clear picture of performance.</p>
+					<p class="proj_date">Completed: 13/07/2023</p>
+				</div>
+				-->
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/lightcurve.svg">
+						<h3>Light Curve Search</h3>
+						<a href="https://github.com/Catapill/LightCurveSearch"><img class="proj_icon" src="images/githubLogo.svg"></a>
+					</div>
+					<p>Light curves allow us to get a glimpse of the activity around very distant stars. This project used machine learning and fuzzy logic with user input drawings to find similarly shaped light curves and output information about the star it belongs to.</p>
+					<p>The project gave me a lot to think about it terms of project scope and the limitations of certain types of data.</p>
+					<p class="proj_date">Completed: 07/05/2021</p>
+				</div>
+				
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/tug.svg">
+						<h3>TUG Tests</h3>
+						<a href="https://github.com/Catapill/TUG_Analysis"><img class="proj_icon" src="images/githubLogo.svg"></a>
+					</div>
+					<p>A timed stand up and go test is used to evaluate a persons risk of falling, typically used with elderly individuals. This project aimed to automatically segment the accelerometer data to help with evaluating the results.</p>
+					<p>This project gave me experience with a variety of machine learning models as well as how to create synthetic data when not enough training data is available.</p>
+					<p class="proj_date">Completed: 07/05/2021</p>
+				</div>
+				
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/tug.svg">
+						<h3>Mandelbrot Approximator </h3>
+						<a href="https://github.com/Catapill"><img class="proj_icon" src="images/githubLogo.svg"></a>
+					</div>
+					<p>As part of a challenge, getting a neural network to approximate a fractal is either an infinite stress test or a form of torture as replicating an infinite pattern should be impossible but neural networks have some clever tricks. This project acts an investigation into those tricks.</p>
+					<p>As this is a slow burn, long term project that involes a lot of research, I'm learning a lot about the more intricate details of neural networks.</p>
+					<p class="proj_date">Completed: WIP</p>
+				</div>
+				
+				<div class="project">
+					<div class="proj_title">
+						<img class="proj_icon" src="images/tug.svg">
+						<h3>More Coming Soon!</h3>
+						<a href="https://github.com/Catapill"><img class="proj_icon" src="images/githubLogo.svg"></a>
+					</div>
+					<p>I want to do projects using the Python Library BeautifulSoup and expand my knowledge with cloud computing.</p>
+					<p></p>
+					<p class="proj_date">Completed: WIP</p>
+				</div>
+				
+			</div>
+		</div>
+		<img class="transition" src="images/background_transition.svg">
+		<div class="about" id="About">
+			<div class="header">
+				<h2 class="section_title">About Me</h2>
+				<img src="images/zig.svg">
+			</div>
+			<div class="about_container">
+			
+				<div class="code-editor">
+					<code class="code">
+						<p class="line"><span class="linenum">01</span><span class="class">class</span> <span class="name">AdamWoods</span>:</p>
+						<p class="line"><span class="linenum">02</span><span class="indent_1 comment"># This class is a work in progress.</span></p>
+						<p class="line"><span class="linenum">03</span><span class="indent_1 comment"># I'm always expanding my knowledge.</span></p>
+						<p class="line"><span class="linenum">04</span></p>
+						<p class="line"><span class="linenum">05</span><span class="indent_1"><span class="class">def</span> <span class="name">__init__</span>(<span class="self">self</span>):</span></p>
+						<p class="line"><span class="linenum">06</span><span class="indent_2"><span class="self">self</span>.name = <span class="string">"AdamWoods"</span></span></p>
+						<p class="line"><span class="linenum">07</span><span class="indent_2"><span class="self">self</span>.date_of_birth_epoch = <span class="number">910557060</span></span></p>
+						<p class="line"><span class="linenum">08</span><span class="indent_2"><span class="self">self</span>.email = <span class="string">"adam@adamwoods.dev"</span></span></p>
+						<p class="line"><span class="linenum">09</span></p>
+						<p class="line"><span class="linenum">10</span><span class="indent_1"><span class="class">def</span> <span class="name">get_education</span>(<span class="self">self</span>):</span></p>
+						<p class="line"><span class="linenum">11</span><span class="indent_2">education = {<span class="string">"2015 - 2017"</span> : <span class="string">"A Levels - Computer Science, Physics, History"</span>,</span></p>
+						<p class="line"><span class="linenum">12</span><span class="indent_dict"><span class="string">"2017 - 2021"</span> : <span class="string">"Northumbria University - Coputer Science with AI, First Class Honors"</span>,}</span></p>
+						<p class="line"><span class="linenum">13</span><span class="indent_2"><span class="class">return</span> education</span></p>
+						<p class="line"><span class="linenum">14</span></p>
+						<p class="line"><span class="linenum">15</span><span class="indent_1"><span class="class">def</span> <span class="name">get_experience</span>(<span class="self">self</span>):</span></p>
+						<p class="line"><span class="linenum">16</span><span class="indent_2">experience = {<span class="string">"2021 - 2022"</span> : <span class="string">"Data Analyst at UK Search Limited"</span>,</span></p>
+						<p class="line"><span class="linenum">17</span><span class="indent_dict2"><span class="string">"2022 - now"</span> : <span class="string">"Senior Data Analyst at UK Search Limited"</span>,}</span></p>
+						<p class="line"><span class="linenum">18</span><span class="indent_2"><span class="class">return</span> experience</span></p>
+						<p class="line"><span class="linenum">19</span></p>
+						<p class="line"><span class="linenum">20</span><span class="indent_1"><span class="class">def</span> <span class="name">get_skills</span>(<span class="self">self</span>):</span></p>
+						<p class="line"><span class="linenum">21</span><span class="indent_2">skills = [<span class="string">"Python"</span>,<span class="string">"SQL"</span>,<span class="string">"Power BI"</span>,<span class="string">"HTML"</span>,<span class="string">"CSS"</span>,<span class="string">"JavaScript"</span>,<span class="string">"Java"</span>,<span class="string">"MATLAB"</span>,<span class="string">"M Code"</span>,<span class="string">"React"</span>,<span class="string">"Photoshop"</span>,<span class="string">"Illustrator"</span>,</span></p>
+						<p class="line"><span class="linenum">22</span><span class="indent_dict3"><span class="string">"Machine Learning"</span>,<span class="string">"ETL Pipelines"</span>,<span class="string">"Analysis"</span>,<span class="string">"Data Mining"</span>,<span class="string">"Statistics"</span>,<span class="string">"Visualisation"</span>,<span class="string">"Design"</span>,<span class="string">"Vector Art"</span>,</span></p>
+						<p class="line"><span class="linenum">23</span><span class="indent_dict3"><span class="string">"Natural language Processing"</span>,<span class="string">"Computer Vision"</span>,<span class="string">"Big Data"</span><span class="input"> | </span>]</span></p>
+						<p class="line"><span class="linenum">24</span><span class="indent_2">time.sleep(soon)</span></p>
+						<p class="line"><span class="linenum">25</span><span class="indent_2">skills.append(<span class="string">"R"</span>)</p>
+						<p class="line"><span class="linenum">26</span><span class="indent_2"><span class="class">return</span> skills</span></p>
+					</code>
+				</div>
+			</div>
+		</div>
+		<div class="network_fate"></div>
+		<div class="contact" id="Contact">
+			<div class="header">
+				<h2 class="section_title">Seen Enough?</h2>
+				<img src="images/zig.svg">
+			</div>
+			<p class="contact_info">Feel free to get in touch!<br>The best way to do that is with an email at adam@adamwoods.dev or a message on LinkedIn!</p>
+			<p class="footer">Made with HTML by Adam Woods. Circa 2023</p>
+		</div>
+		
+	</div>
+	</div>
+	</div>
+<div id="cursor"></div>
+<div id="cursor2"></div>
+
+<script>
+	var cursor = document.getElementById("cursor")
+	var cursor2 = document.getElementById("cursor2")
+
+	document.onmousemove = function(e){
+		cursor.style.left = (e.pageX - 3) + "px";
+		cursor.style.top = (e.pageY - 3) + "px";
+		cursor2.style.left = (e.pageX - 12) + "px";
+		cursor2.style.top = (e.pageY - 12) + "px";
+	}
+</script>
+<script>
+(function() {
+    document.addEventListener("mousemove", parallax);
+    const elem1 = document.getElementById("parallax_1");
+	const elem2 = document.getElementById("parallax_2");
+	const elem3 = document.getElementById("parallax_3");
+    function parallax(e) {
+        let _w = window.innerWidth/2;
+        let _mouseX = e.clientX;
+        let _depth1 = `${(_mouseX - _w) * -0.002}%`;
+        let _depth2 = `${(_mouseX - _w) * -0.003}%`;
+        let _depth3 = `${(_mouseX - _w) * -0.006}%`;
+        let x1 = `${_depth1}, 0`;
+		let x2 = `${_depth2}, 0`;
+		let x3 = `${_depth3}, 0`;
+        elem1.style.backgroundPosition = x1;
+		elem2.style.backgroundPosition = x2;
+		elem3.style.backgroundPosition = x3;
+    }
+})()
+
+</script>
+</body>
+</html>

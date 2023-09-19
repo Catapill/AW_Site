@@ -1,0 +1,1647 @@
+/** Fonts **/
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-Thin.eot');
+    src: url('../fonts/../fonts/JosefinSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-Thin.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-Thin.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-Thin.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-Thin.svg#../fonts/../fonts/JosefinSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Regular.eot');
+    src: url('../fonts/AlbertSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Regular.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Regular.woff') format('woff'),
+        url('../fonts/AlbertSans-Regular.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Regular.svg#../fonts/AlbertSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Italic.eot');
+    src: url('../fonts/AlbertSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Italic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Italic.woff') format('woff'),
+        url('../fonts/AlbertSans-Italic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Italic.svg#../fonts/AlbertSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Medium.eot');
+    src: url('../fonts/AlbertSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Medium.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Medium.woff') format('woff'),
+        url('../fonts/AlbertSans-Medium.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Medium.svg#../fonts/AlbertSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-ExtraLightItalic.eot');
+    src: url('../fonts/AlbertSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-ExtraLightItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-ExtraLightItalic.svg#../fonts/AlbertSans-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Regular_1.eot');
+    src: url('../fonts/AlbertSans-Regular_1.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Regular_1.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Regular_1.woff') format('woff'),
+        url('../fonts/AlbertSans-Regular_1.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Regular_1.svg#../fonts/AlbertSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-ExtraBold.eot');
+    src: url('../fonts/AlbertSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/AlbertSans-ExtraBold.woff') format('woff'),
+        url('../fonts/AlbertSans-ExtraBold.ttf') format('truetype'),
+        url('../fonts/AlbertSans-ExtraBold.svg#../fonts/AlbertSans-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Thin.eot');
+    src: url('../fonts/AlbertSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Thin.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Thin.woff') format('woff'),
+        url('../fonts/AlbertSans-Thin.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Thin.svg#../fonts/AlbertSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-ExtraBoldItalic.eot');
+    src: url('../fonts/AlbertSans-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-ExtraBoldItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-ExtraBoldItalic.svg#../fonts/AlbertSans-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-BoldItalic.eot');
+    src: url('../fonts/AlbertSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-BoldItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-BoldItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-BoldItalic.svg#../fonts/AlbertSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-Bold.eot');
+    src: url('../fonts/../fonts/JosefinSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-Bold.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-Bold.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-Bold.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-Bold.svg#../fonts/../fonts/JosefinSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-ExtraLightItalic.eot');
+    src: url('../fonts/../fonts/JosefinSans-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-ExtraLightItalic.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-ExtraLightItalic.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-ExtraLightItalic.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-ExtraLightItalic.svg#../fonts/../fonts/JosefinSans-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Black.eot');
+    src: url('../fonts/AlbertSans-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Black.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Black.woff') format('woff'),
+        url('../fonts/AlbertSans-Black.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Black.svg#../fonts/AlbertSans-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-ExtraLight.eot');
+    src: url('../fonts/AlbertSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/AlbertSans-ExtraLight.woff') format('woff'),
+        url('../fonts/AlbertSans-ExtraLight.ttf') format('truetype'),
+        url('../fonts/AlbertSans-ExtraLight.svg#../fonts/AlbertSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-SemiBold.eot');
+    src: url('../fonts/AlbertSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/AlbertSans-SemiBold.woff') format('woff'),
+        url('../fonts/AlbertSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/AlbertSans-SemiBold.svg#../fonts/AlbertSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-ExtraLight.eot');
+    src: url('../fonts/../fonts/JosefinSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-ExtraLight.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-ExtraLight.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-ExtraLight.svg#../fonts/../fonts/JosefinSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-BlackItalic.eot');
+    src: url('../fonts/AlbertSans-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-BlackItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-BlackItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-BlackItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-BlackItalic.svg#../fonts/AlbertSans-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Light.eot');
+    src: url('../fonts/AlbertSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Light.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Light.woff') format('woff'),
+        url('../fonts/AlbertSans-Light.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Light.svg#../fonts/AlbertSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-ThinItalic.eot');
+    src: url('../fonts/AlbertSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-ThinItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-ThinItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-ThinItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-ThinItalic.svg#../fonts/AlbertSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-LightItalic.eot');
+    src: url('../fonts/AlbertSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-LightItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-LightItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-LightItalic.svg#../fonts/AlbertSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-Bold.eot');
+    src: url('../fonts/AlbertSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-Bold.woff2') format('woff2'),
+        url('../fonts/AlbertSans-Bold.woff') format('woff'),
+        url('../fonts/AlbertSans-Bold.ttf') format('truetype'),
+        url('../fonts/AlbertSans-Bold.svg#../fonts/AlbertSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-Italic.eot');
+    src: url('../fonts/../fonts/JosefinSans-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-Italic.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-Italic.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-Italic.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-Italic.svg#../fonts/../fonts/JosefinSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-BoldItalic.eot');
+    src: url('../fonts/../fonts/JosefinSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-BoldItalic.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-BoldItalic.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-BoldItalic.svg#../fonts/../fonts/JosefinSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-MediumItalic.eot');
+    src: url('../fonts/AlbertSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-MediumItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-MediumItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-MediumItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-MediumItalic.svg#../fonts/AlbertSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-Light.eot');
+    src: url('../fonts/../fonts/JosefinSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-Light.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-Light.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-Light.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-Light.svg#../fonts/../fonts/JosefinSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Albert Sans';
+    src: url('../fonts/AlbertSans-SemiBoldItalic.eot');
+    src: url('../fonts/AlbertSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AlbertSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/AlbertSans-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/AlbertSans-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/AlbertSans-SemiBoldItalic.svg#../fonts/AlbertSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-MediumItalic.eot');
+    src: url('../fonts/../fonts/JosefinSans-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-MediumItalic.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-MediumItalic.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-MediumItalic.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-MediumItalic.svg#../fonts/../fonts/JosefinSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-Regular.eot');
+    src: url('../fonts/../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-Regular.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-Regular.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-Regular.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-Regular.svg#../fonts/../fonts/JosefinSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-Medium.eot');
+    src: url('../fonts/../fonts/JosefinSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-Medium.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-Medium.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-Medium.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-Medium.svg#../fonts/../fonts/JosefinSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/../fonts/JosefinSans-LightItalic.eot');
+    src: url('../fonts/../fonts/JosefinSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/JosefinSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/../fonts/JosefinSans-LightItalic.woff') format('woff'),
+        url('../fonts/../fonts/JosefinSans-LightItalic.ttf') format('truetype'),
+        url('../fonts/../fonts/JosefinSans-LightItalic.svg#../fonts/../fonts/JosefinSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-SemiBold.eot');
+    src: url('../fonts/JosefinSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JosefinSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/JosefinSans-SemiBold.woff') format('woff'),
+        url('../fonts/JosefinSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/JosefinSans-SemiBold.svg#../fonts/JosefinSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-ThinItalic.eot');
+    src: url('../fonts/JosefinSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JosefinSans-ThinItalic.woff2') format('woff2'),
+        url('../fonts/JosefinSans-ThinItalic.woff') format('woff'),
+        url('../fonts/JosefinSans-ThinItalic.ttf') format('truetype'),
+        url('../fonts/JosefinSans-ThinItalic.svg#../fonts/JosefinSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-Thin.eot');
+    src: url('../fonts/JosefinSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JosefinSans-Thin.woff2') format('woff2'),
+        url('../fonts/JosefinSans-Thin.woff') format('woff'),
+        url('../fonts/JosefinSans-Thin.ttf') format('truetype'),
+        url('../fonts/JosefinSans-Thin.svg#../fonts/JosefinSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('../fonts/JosefinSans-SemiBoldItalic.eot');
+    src: url('../fonts/JosefinSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/JosefinSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/JosefinSans-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/JosefinSans-SemiBoldItalic.ttf') format('truetype'),
+        url('../fonts/JosefinSans-SemiBoldItalic.svg#../fonts/JosefinSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/** Globals **/
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+	background: #0d0a15;
+	margin:0px;
+	color:#fff;
+	font-weight: 400;
+	font-size:1.3vw;
+	line-height: 1.7vw;
+	font-family:"Josefin Sans";
+	cursor:none;
+}
+#cursor {
+	height: 6px;
+	width:6px;
+	background:#fff;
+	border-radius:50%;
+	position:absolute;
+	transition-duration: 0.01s;
+	mix-blend-mode: difference;
+}
+#cursor2 {
+	height: 20px;
+	width: 20px;
+	border: 2px solid #fff;
+	border-radius:50%;
+	position:absolute;
+	transition-duration: 0.07s;
+	transition-timing-function: ease-out;
+	mix-blend-mode: difference;
+}
+h1 {
+	font-family:"Josefin Sans";
+	font-weight: 900;
+	line-height: 0.9;
+	font-size: 3em;
+	font-weight: 900;
+}
+h2 {
+	font-weight: 300;
+}
+
+/* Background */
+
+#parallax_1 {
+	background-image: url("../images/background_network_tile.svg");
+	background-size: 1400px;
+	background-position: 0% 50%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	transition: background-position 100ms;
+}
+#parallax_2 {
+	background-image: url("../images/background_network_tile_light.svg");
+	background-size: 1100px;
+	background-position: 0 50%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	transition: background-position 100ms;
+}
+#parallax_3 {
+	background-image: url("../images/background_tile.svg");
+	background-size: 105px;
+	background-position: 0 50%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	transition: background-position 100ms;
+}
+
+
+/** Home **/
+
+.home {
+	padding: 10vw 15vw;
+	position: relative;
+}
+.start {
+	display:flex;
+	margin: 5vw 0vw 0px 0px	;
+	
+}
+.start_box {
+	flex: 1;
+	width:50%;
+}
+.title h1 {
+	margin: 0px;
+	font-size: 4em;
+}
+.title p{
+	margin: 0px 0px 1vw 5%;
+}
+.lines{
+	height:30px;
+	margin: 3vw 0px 0px 2vw;
+}
+.info {
+	width:auto;
+	font-size: 0.8em;
+	float:right;
+	text-align:right;
+}
+.dots {
+	margin: 0vw 2vw 0vw 1vw;
+	height:15px;
+}
+.logo {
+	width:100px;
+	position:relative;
+	z-index:2;
+	transition: filter 0.2s;
+}
+.logo:hover {
+	filter: invert(54%) sepia(68%) saturate(2553%) hue-rotate(326deg) brightness(99%) contrast(81%);
+}
+.nav {
+	float:right;
+	margin: 1.2vw 0vw;
+	display:flex;
+}
+.nav li{
+    list-style-type: none;
+	position:relative;
+	z-index:2;
+}
+.nav .nav_link {
+	text-decoration:none;
+	margin: 0px 15px;
+	border-top: 0px solid #fff;
+	transition: border-top 0.2s;
+	padding: 4vw 5px 5px 0px;
+}
+.nav .nav_link:hover {
+	border-top: 0.2vw solid #E55F5D;
+	cursor:none;
+}
+.nav .nav_link:visited {
+	text-decoration:none;
+	color: #fff;
+}
+
+/** Color Fade Animation **/
+
+.float_container {
+	dipsplay:inline;
+	white-space: nowrap;
+}
+.fade {
+	bottom: -1px; 
+	transition: left 100ms;
+	width:100%;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	z-index:-1;
+}
+.floating-div {
+    position: absolute;
+    animation: floatAnimation 20s linear infinite;
+	left:0;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateX(0%); /* Starting position */
+    }
+    100% {
+        transform: translateX(100%); /* Ending position (adjust for screen width) */
+    }
+}
+
+.floating-div2 {
+    position: absolute;
+    animation: floatAnimation2 20s linear infinite;
+	left:-100%;
+}
+
+@keyframes floatAnimation2 {
+    0% {
+        transform: translateX(0%); /* Starting position */
+    }
+    100% {
+        transform: translateX(100%); /* Ending position (adjust for screen width) */
+    }
+}
+
+/** Media Bridge **/
+
+.bridge {
+	display:flex;
+    height: 7vw;
+	position: absolute;
+	top:17.3%;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.media_box {
+	display:flex;
+    background-color: #151C35;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	width: 42%;
+	height:6vw;
+	border-radius:20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.media_box a {
+	width:60px;
+	height:60px;
+	margin:1vw 2vw;
+	padding:1vw;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 20px;
+	transition: background-color 0.3s;
+	position:relative;
+	z-index:2;
+}
+.media_box a:hover {
+	background-color: rgba(0,0,0,0.2);
+	cursor:none;
+}
+.media_box a:hover .media_icon {
+	filter: invert(54%) sepia(68%) saturate(2553%) hue-rotate(326deg) brightness(99%) contrast(81%);
+	opacity:0.5;
+}
+.media_icon {
+	width:60px;
+	height:60px;
+	transition: filter 0.3s;
+}
+
+/** Intro **/
+
+.header {
+	display:flex;
+	margin: 0vw 0vw 5vw 15vw;
+	padding-top:4vw;
+}
+.header img {
+	height:25px;
+	margin: 1.6vw 15vw 1.6vw 0px;
+	float:right;
+    margin-left: auto;
+}
+.section_title {
+	font-weight: 900;
+}
+.intro {
+	background-color: #141126;
+	background-image: url("../images/logo_background2.svg");
+	background-size: 100vw;
+	background-repeat: none;
+	overflow: hidden;
+}
+.services {
+	width:100%;
+	margin: 5vw 0px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.service {
+	width:20%;
+	height:19vw;
+	margin: 0vw 3vw;
+	border-radius:20px;
+	border: 0.2vw solid #E55F5D;
+}
+.service_icon {
+	height: 70px;
+	margin: 2vw 1vw 1vw 2vw;
+}
+.service h3 {
+	font-size:1em;
+	font-weight:600;
+	margin: 0px 2vw;
+}
+.service p {
+	font-size:0.8em;
+	margin: 2vw 2vw;
+	font-weight: 300;
+}
+.skills {
+	width:100%;
+	margin: 5vw 0px 10vw 0px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.skill {
+	display:flex;
+	width:15%;
+	height:6.5vw;
+	margin: 0vw 1.9vw;
+	border-radius:20px;
+	border: 0.2vw solid #E55F5D;
+}
+.skill_icon {
+	height: 70px;
+	margin: 2vw 1vw 1vw 2vw;
+}
+.skill h3 {
+	font-size:1em;
+	font-weight:600;
+	margin: 2.5vw 1vw;
+}
+
+/** Works **/
+
+.works {
+	background-color: #0D0A15;
+	background-image: url("../images/logo_background.svg");
+	padding: 0px 0px 4vw 0px;
+	background-size: 100vw;
+	background-repeat: none;
+	overflow: hidden;
+}
+
+.project_container {
+	display: grid;
+    grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+	justify-items: center;
+	align-content: space-evenly;
+	align-items: center;
+	width:75%;
+	margin:auto;
+}
+.project {
+	margin:1vw;
+	padding:1vw;
+	border: 0.2vw solid #E55F5D;
+	border-radius:20px;
+	font-size: 0.7em;
+	text-align:center;
+	width:21vw;
+	height: 24vw;
+	position: relative;
+	cursor:none;
+}
+.project p {
+	font-weight:300;
+}
+.proj_title {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 3vw;
+}
+.proj_title h3 {
+	margin: 0px;
+}
+.proj_title a {
+	cursor:none;
+	margin: 15px 0 0 0;
+	position:relative;
+	z-index:2;
+	transition: filter 0.3s;
+}
+.proj_title a:hover {
+	filter: invert(54%) sepia(68%) saturate(2553%) hue-rotate(326deg) brightness(99%) contrast(81%);
+	opacity:0.5;
+}
+.proj_icon {
+    height:70px;
+	margin: 0px 2vw;
+}
+.proj_date {
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	width:90%;
+}
+
+/** About **/
+
+.transition {
+	position:absolute;
+}
+.about_container {
+	width:100%;
+}
+
+.code-editor {
+	line-height:0.8vw;
+	font-size:0.8vw;
+	margin:5vw 0vw;
+}
+
+.code {
+	position:relative;
+}
+
+.line {
+	padding-left:20vw;
+	margin:0px;
+	position:relative;
+	z-index:2;
+	
+}
+.linenum {
+	border-right: 1px solid #E55F5D;
+	padding-right:1vw;
+	margin-right:1vw;
+	color: #3F4E64;
+}
+.indent_1 {
+	margin-left: 2vw;
+}
+.indent_2 {
+	margin-left: 4vw;
+}
+.indent_dict {
+	margin-left: 9.7vw;
+}
+.indent_dict2 {
+	margin-left: 10.1vw;
+}
+.indent_dict3 {
+	margin-left: 8.4vw;
+}
+.comment {
+	color: #3F4E64;
+}
+.class {
+	color: #5005E0;
+}
+.name {
+	color: #379AFF;
+}
+.self {
+	color: #E55F5D;
+}
+.number {
+	color: #FBD129;
+}
+.string {
+	color: #5DD44A;
+}
+.line:hover {
+    background-color: rgba(28, 23, 44, 0.3); 
+	cursor:none;
+}
+.input {
+	animation-name: blinker;
+	animation-duration: 0.8s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/** Contact **/
+
+.contact {
+	background-color: #0D0A15;
+	padding: 0vw 0vw 8vw 0vw;
+}
+.network_fate {
+	height:6vw;
+	background-image: linear-gradient(rgba(0,0,0,0), #0D0A15);
+}
+.contact .contact_info {
+	margin: 0px 20vw;
+	font-size: 0.8em;
+}
+.footer {
+	bottom:0;
+	position:absolute;
+	font-size: 0.5em;
+	margin:1vw 2vw;
+	opacity:0.4;
+}
+
+/*desktops - higher resolution*/
+@media (min-width: 1601px) and (max-width: 2000px) {
+	.bridge {
+		top:18%;
+	}
+	.media_box {
+		width: 45%;
+	}
+	.media_box a {
+		width:50px;
+		height:50px;
+	}
+	.media_icon {
+		width:50px;
+		height:50px;
+	}
+	.service_icon {
+		height: 50px;
+	}
+	.skill_icon {
+		height: 50px;
+	}
+	.proj_icon {
+		height:50px;
+	}
+	.header img {
+		height:20px;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 8px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+}
+/*desktops - higher resolution*/
+@media (min-width: 1281px) and (max-width: 1600px) {
+	.bridge {
+		top:17.5%;
+	}
+	.media_box {
+		width: 45%;
+	}
+	.media_box a {
+		width:40px;
+		height:40px;
+	}
+	.media_icon {
+		width:40px;
+		height:40px;
+	}
+	.service_icon {
+		height: 40px;
+	}
+	.skill_icon {
+		height: 40px;
+	}
+	.proj_icon {
+		height:40px;
+	}
+	.header img {
+		height:17px;
+	}
+	.lines{
+		height:20px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.info {
+		font-size: 0.9em;
+	}
+	.dots {
+		height:12px;
+	}
+	.logo {
+		width:70px;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 4px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+}
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.bridge {
+		top:18%;
+	}
+	.media_box {
+		width: 45%;
+	}
+	.media_box a {
+		width:35px;
+		height:35px;
+	}
+	.media_icon {
+		width:35px;
+		height:35px;
+	}
+	.service_icon {
+		height: 35px;
+	}
+	.skill_icon {
+		height: 35px;
+	}
+	.proj_icon {
+		height:25px;
+	}
+	.header img {
+		height:15px;
+	}
+	.lines{
+		height:17px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.dots {
+		height:10px;
+	}
+	.logo {
+		width:60px;
+	}
+	.code-editor {
+		line-height:0.9vw;
+		font-size:0.9vw;
+	}
+	.project {
+		font-size: 0.8em;
+		height: 26vw;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 8px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+}
+/*tablets, ipads (portrait)*/
+@media (min-width: 851px) and (max-width: 1024px) {
+	.media_box {
+		width: 45%;
+		border-radius:10px;
+	}
+	.media_box a {
+		width:20px;
+		height:20px;
+		border-radius:10px;
+	}
+	.media_icon {
+		width:20px;
+		height:20px;
+	}
+	.service_icon {
+		height: 25px;
+	}
+	.skill_icon {
+		height: 25px;
+	}
+	.proj_icon {
+		height:20px;
+	}
+	.header img {
+		height:7px;
+	}
+	.lines{
+		height:12px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.info {
+		font-size: 1em;
+	}
+	.dots {
+		height:8px;
+	}
+	.logo {
+		width:50px;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 8px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+}
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 850px) {
+	.media_box {
+		width: 45%;
+		border-radius:10px;
+	}
+	.media_box a {
+		width:20px;
+		height:20px;
+		border-radius:10px;
+	}
+	.media_icon {
+		width:20px;
+		height:20px;
+	}
+	.service_icon {
+		height: 20px;
+	}
+	.skill_icon {
+		height: 20px;
+	}
+	.proj_icon {
+		height:25px;
+	}
+	.header img {
+		height:7px;
+	}
+	.lines{
+		height:10px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 0px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+	.dots {
+		height:7px;
+	}
+	.logo {
+		width:45px;
+	}
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+	.title {
+		margin: 15vw 0 15vw 0;
+	}
+	.title h1 {
+		margin: 0px;
+		font-size: 6em;
+	}
+	.title p{
+		font-size: 2em;
+		margin: 0px 0px 2vw 7%;
+	}
+	.lines{
+		height:30px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.info {
+		width:auto;
+		font-size: 1.3em;
+		float:right;
+		text-align:right;
+		margin: 15vw 0 15vw 0;
+	}
+	.nav {
+		display:none;
+	}
+	.bridge {
+		display:flex;
+		height: 7vw;
+		position: absolute;
+		top:21.5%;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.media_box {
+		width: 100%;
+		height:10vw;
+		border-radius:5px;
+	}
+	.media_box a {
+		width:35px;
+		height:35px;
+		border-radius:10px;
+	}
+	.media_icon {
+		width:35px;
+		height:35px;
+	}
+	.intro {
+		padding-top:8vw;
+	}
+	.services {
+		margin: 15vw 0px;
+	}
+	.service_icon {
+		height: 25px;
+		margin: 2vw;
+	}
+	.services {
+		margin: 0vw 0px 0px 0px;
+		font-size:1.7em;
+	}
+	.service {
+		width:21%;
+		height:26vw;
+		margin: 0vw 2vw;
+	}
+	.skills {
+		margin: 3vw 0px 10vw 0px;
+	}
+	.skill {
+		width:16%;
+		height:7.5vw;
+		margin: 0vw 1.2vw;
+	}
+	.skill_icon {
+		height: 25px;
+	}
+	.skill h3 {
+		font-size:1.2	em;
+		font-weight:600;
+		margin: 3vw 0vw 3vw 1vw;
+	}
+	.works {
+		background-color: #0D0A15;
+		background-image: url("../images/logo_background.svg");
+		padding: 0vw 0px 4vw 0px;
+		background-size: 100vw;
+		background-repeat: none;
+		overflow: hidden;
+	}
+
+	.project_container {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-evenly;
+		justify-items: center;
+		align-content: space-evenly;
+		align-items: center;
+		width:75%;
+		margin:auto;
+	}
+	.project {
+		margin:1vw;
+		padding:1vw;
+		border: 0.2vw solid #E55F5D;
+		border-radius:10px;
+		text-align:center;
+		width:31vw;
+		height:34vw;
+	}
+	.project p {
+		font-weight:300;
+		font-size:2em;
+	}
+	.proj_title {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 5vw;
+	}
+	.proj_title h3 {
+		margin: 0px;
+		font-size:1.6em;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 0px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+	.proj_icon {
+		height:25px;
+	}
+	.header {
+		font-size: 2em;
+	}
+	.header img {
+		width:35px;
+	}
+	.lines{
+		display:none;
+	}
+	.dots {
+		height:5px;
+	}
+	.logo {
+		width:50px;
+		margin-left:44%;
+	}
+	.line{
+		padding-left:5vw;
+	}
+	.code-editor {
+		line-height:1.2vw;
+		font-size:1.2vw;
+	}
+	.contact .contact_info {
+		margin: 0px 20vw;
+		font-size: 1.5em;
+	}
+	.footer {
+		font-size: 0.8em;
+	}
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+	.title {
+		margin: 15vw 0 15vw 0;
+	}
+	.title h1 {
+		margin: 0px;
+		font-size: 6em;
+	}
+	.title p{
+		font-size: 2em;
+		margin: 0px 0px 2vw 7%;
+	}
+	.lines{
+		height:30px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.info {
+		width:auto;
+		font-size: 1.3em;
+		float:right;
+		text-align:right;
+		margin: 15vw 0 15vw 0;
+	}
+	.nav {
+		display:none;
+	}
+	.bridge {
+		display:flex;
+		height: 7vw;
+		position: absolute;
+		top:21.5%;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.media_box {
+		width: 100%;
+		height:10vw;
+		border-radius:5px;
+	}
+	.media_box a {
+		width:20px;
+		height:20px;
+		border-radius:5px;
+	}
+	.media_icon {
+		width:20px;
+		height:20px;
+	}
+	.intro {
+		padding-top:8vw;
+	}
+	.services {
+		margin: 15vw 0px;
+		border-radius: 2px;
+	}
+	.service_icon {
+		height: 15px;
+		margin: 2vw;
+	}
+	.services {
+		margin: 0vw 0px 0px 0px;
+		font-size:1.7em;
+	}
+	.service {
+		width:21%;
+		height:26vw;
+		margin: 0vw 2vw;
+		border-radius: 10px;
+	}
+	.skills {
+		margin: 3vw 0px 10vw 0px;
+	}
+	.skill {
+		width:16%;
+		height:7.5vw;
+		margin: 0vw 1.2vw;
+		border-radius: 10px;
+	}
+	.skill_icon {
+		height: 15px;
+	}
+	.skill h3 {
+		font-size:1.2	em;
+		font-weight:600;
+		margin: 3vw 0vw 3vw 1vw;
+	}
+	.works {
+		background-color: #0D0A15;
+		background-image: url("../images/logo_background.svg");
+		padding: 0vw 0px 4vw 0px;
+		background-size: 100vw;
+		background-repeat: none;
+		overflow: hidden;
+	}
+
+	.project_container {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-evenly;
+		justify-items: center;
+		align-content: space-evenly;
+		align-items: center;
+		width:75%;
+		margin:auto;
+	}
+	.project {
+		margin:1vw;
+		padding:1vw;
+		border: 0.2vw solid #E55F5D;
+		border-radius:10px;
+		text-align:center;
+		width:31vw;
+		height:34vw;
+	}
+	.project p {
+		font-weight:300;
+		font-size:2em;
+	}
+	.proj_title {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 5vw;
+	}
+	.proj_title h3 {
+		margin: 0px;
+		font-size:1.6em;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 0px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+	.proj_icon {
+		height: 15px;
+	}
+	.header {
+		font-size: 2em;
+	}
+		.header img {
+			width:35px;
+	}
+	.lines{
+		display:none;
+	}
+	.dots {
+		height:5px;
+	}
+	.logo {
+		width:50px;
+		margin-left:41%;
+	}
+	.line{
+		padding-left:5vw;
+	}
+	.code-editor {
+		line-height:1.2vw;
+		font-size:1.2vw;
+	}
+	.contact .contact_info {
+		margin: 0px 20vw;
+		font-size: 1.5em;
+	}
+	.footer {
+		font-size: 0.8em;
+	}
+}
+
+/*Tiny Screens (portrait)*/
+@media (max-width: 320px) {
+	.title {
+		margin: 15vw 0 15vw 0;
+	}
+	.title h1 {
+		margin: 0px;
+		font-size: 6em;
+	}
+	.title p{
+		font-size: 2em;
+		margin: 0px 0px 2vw 7%;
+	}
+	.lines{
+		height:30px;
+		margin: 3vw 0px 0px 2vw;
+	}
+	.info {
+		width:auto;
+		font-size: 1.3em;
+		float:right;
+		text-align:right;
+		margin: 15vw 0 15vw 0;
+	}
+	.nav {
+		display:none;
+	}
+	.bridge {
+		display:flex;
+		height: 7vw;
+		position: absolute;
+		top:21.5%;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+	}
+	.media_box {
+		width: 100%;
+		height:10vw;
+		border-radius:5px;
+	}
+	.media_box a {
+		width:25px;
+		height:25px;
+		border-radius:5px;
+	}
+	.media_icon {
+		width:25px;
+		height:25px;
+	}
+	.intro {
+		padding-top:8vw;
+	}
+	.services {
+		margin: 15vw 0px;
+		border-radius: 2px;
+	}
+	.service_icon {
+		height: 15px;
+		margin: 2vw;
+	}
+	.services {
+		margin: 0vw 0px 0px 0px;
+		font-size:1.7em;
+	}
+	.service {
+		width:21%;
+		height:26vw;
+		margin: 0vw 2vw;
+		border-radius: 10px;
+	}
+	.skills {
+		margin: 3vw 0px 10vw 0px;
+	}
+	.skill {
+		width:16%;
+		height:7.5vw;
+		margin: 0vw 1.2vw;
+		border-radius: 10px;
+	}
+	.skill_icon {
+		height: 15px;
+	}
+	.skill h3 {
+		font-size:1.2	em;
+		font-weight:600;
+		margin: 3vw 0vw 3vw 1vw;
+	}
+	.works {
+		background-color: #0D0A15;
+		background-image: url("../images/logo_background.svg");
+		padding: 0vw 0px 4vw 0px;
+		background-size: 100vw;
+		background-repeat: none;
+		overflow: hidden;
+	}
+
+	.project_container {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-evenly;
+		justify-items: center;
+		align-content: space-evenly;
+		align-items: center;
+		width:75%;
+		margin:auto;
+	}
+	.project {
+		margin:1vw;
+		padding:1vw;
+		border: 0.2vw solid #E55F5D;
+		border-radius:10px;
+		text-align:center;
+		width:31vw;
+		height:34vw;
+	}
+	.project p {
+		font-weight:300;
+		font-size:2em;
+	}
+	.proj_title {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 5vw;
+	}
+	.proj_title h3 {
+		margin: 0px;
+		font-size:1.6em;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 15px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+	.proj_icon {
+		height: 15px;
+	}
+	.header {
+		font-size: 2em;
+	}
+		.header img {
+			width:35px;
+	}
+	.lines{
+		display:none;
+	}
+	.dots {
+		height:5px;
+	}
+	.logo {
+		width:50px;
+		margin-left:35%;
+	}
+	.line{
+		padding-left:5vw;
+	}
+	.code-editor {
+		line-height:1.2vw;
+		font-size:1.2vw;
+	}
+	.contact .contact_info {
+		margin: 0px 20vw;
+		font-size: 1.5em;
+	}
+	.footer {
+		font-size: 0.8em;
+	}
+}
+

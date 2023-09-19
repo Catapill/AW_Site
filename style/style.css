@@ -35,6 +35,7 @@
     font-style: italic;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Josefin Sans';
     src: url('../fonts/../fonts/JosefinSans-ExtraLight.eot');
@@ -70,7 +71,7 @@
     font-weight: bold;
     font-style: italic;
     font-display: swap;
-
+}
 @font-face {
     font-family: 'Josefin Sans';
     src: url('../fonts/../fonts/JosefinSans-Light.eot');

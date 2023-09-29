@@ -366,11 +366,10 @@ a:active {
 	display:flex;
     height: 7vw;
 	position: absolute;
-	top:41vw;
+	top:42vw;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	z-index:2;
 }
 .media_box {
 	display:flex;

@@ -189,12 +189,36 @@ html {
 }
 body {
 	background: #0d0a15;
+	background-image: url("../images/background_network_tile.svg"), url("../images/background_network_tile_light.svg"), url("../images/background_tile.svg") ;
+	background-size: 1000px, 700px, 70px;
+	background-position: 0% 50%;
 	margin:0px;
 	color:#fff;
 	font-weight: 400;
 	font-size:1.3vw;
 	line-height: 1.7vw;
 	font-family:"Josefin Sans";
+	cursor:none;
+	overflow-x:hidden;
+}
+#cursor {
+	height: 6px;
+	width:6px;
+	background:#fff;
+	border-radius:50%;
+	position:absolute;
+	transition-duration: 0.01s;
+	mix-blend-mode: difference;
+}
+#cursor2 {
+	height: 20px;
+	width: 20px;
+	border: 2px solid #fff;
+	border-radius:50%;
+	position:absolute;
+	transition-duration: 0.07s;
+	transition-timing-function: ease-out;
+	mix-blend-mode: difference;
 }
 h1 {
 	font-family:"Josefin Sans";
@@ -222,36 +246,6 @@ a:hover {
 a:active {
   color: #fff;
 }
-/* Background */
-
-#parallax_1 {
-	background-image: url("../images/background_network_tile.svg");
-	background-size: 1400px;
-	background-position: 0% 50%;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	transition: background-position 100ms;
-}
-#parallax_2 {
-	background-image: url("../images/background_network_tile_light.svg");
-	background-size: 1100px;
-	background-position: 0 50%;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	transition: background-position 100ms;
-}
-#parallax_3 {
-	background-image: url("../images/background_tile.svg");
-	background-size: 105px;
-	background-position: 0 50%;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	transition: background-position 100ms;
-}
-
 
 /** Home **/
 
@@ -316,6 +310,7 @@ a:active {
 }
 .nav .nav_link:hover {
 	border-top: 0.2vw solid #E55F5D;
+	cursor:none;
 }
 .nav .nav_link:visited {
 	text-decoration:none;
@@ -373,7 +368,7 @@ a:active {
 	display:flex;
     height: 7vw;
 	position: absolute;
-	top:17.3%;
+	top:83%;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
@@ -402,6 +397,7 @@ a:active {
 }
 .media_box a:hover {
 	background-color: rgba(0,0,0,0.2);
+	cursor:none;
 }
 .media_box a:hover .media_icon {
 	filter: invert(54%) sepia(68%) saturate(2553%) hue-rotate(326deg) brightness(99%) contrast(81%);
@@ -520,6 +516,7 @@ a:active {
 	width:21vw;
 	height: 24vw;
 	position: relative;
+	cursor:none;
 }
 .project p {
 	font-weight:300;
@@ -534,6 +531,7 @@ a:active {
 	margin: 0px;
 }
 .proj_title a {
+	cursor:none;
 	margin: 15px 0 0 0;
 	position:relative;
 	z-index:2;
@@ -621,6 +619,7 @@ a:active {
 }
 .line:hover {
     background-color: rgba(28, 23, 44, 0.3); 
+	cursor:none;
 }
 .input {
 	animation-name: blinker;
@@ -654,17 +653,50 @@ a:active {
 	font-size: 0.8em;
 }
 .footer {
-	bottom:0;
-	position:absolute;
+	bottom:-200px;
+	position:relative;
 	font-size: 0.5em;
 	margin:1vw 2vw;
 	opacity:0.4;
 }
 
 /*desktops - higher resolution*/
+@media (min-width: 1601px) and (max-width: 2000px) {
+	.media_box {
+		width: 45%;
+	}
+	.media_box a {
+		width:50px;
+		height:50px;
+	}
+	.media_icon {
+		width:50px;
+		height:50px;
+	}
+	.service_icon {
+		height: 50px;
+	}
+	.skill_icon {
+		height: 50px;
+	}
+	.proj_icon {
+		height:50px;
+	}
+	.header img {
+		height:20px;
+	}
+	.proj_title a {
+		cursor:none;
+		margin: 8px 0 0 0;
+		position:relative;
+		z-index:2;
+		transition: filter 0.3s;
+	}
+}
+/*desktops - higher resolution*/
 @media (min-width: 1281px) and (max-width: 1600px) {
 	.bridge {
-		top:17.5%;
+		top:67%;
 	}
 	.media_box {
 		width: 45%;
@@ -703,29 +735,18 @@ a:active {
 		width:70px;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 4px 0 0 0;
 		position:relative;
 		z-index:2;
 		transition: filter 0.3s;
-	}
-	#parallax_1 {
-		background-size: 1200px;
-	}
-	#parallax_2 {
-		background-size: 900px;
-	}
-	#parallax_3 {
-		background-size: 90px;
 	}
 }
 
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
 	.bridge {
-		top:18%;
-	}
-	.media_box {
-		width: 45%;
+		top:60%;
 	}
 	.media_box a {
 		width:35px;
@@ -766,19 +787,11 @@ a:active {
 		height: 26vw;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 8px 0 0 0;
 		position:relative;
 		z-index:2;
 		transition: filter 0.3s;
-	}
-	#parallax_1 {
-		background-size: 1000px;
-	}
-	#parallax_2 {
-		background-size: 800px;
-	}
-	#parallax_3 {
-		background-size: 90px;
 	}
 }
 
@@ -823,24 +836,22 @@ a:active {
 		width:50px;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 8px 0 0 0;
 		position:relative;
 		z-index:2;
 		transition: filter 0.3s;
 	}
-	#parallax_1 {
-		background-size: 900px;
+	#cursor {
+		display:none;
 	}
-	#parallax_2 {
-		background-size: 700px;
-	}
-	#parallax_3 {
-		background-size: 80px;
+	#cursor2 {
+		display:none;
 	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-.title {
+	.title {
 		margin: 15vw 0 15vw 0;
 	}
 	.title h1 {
@@ -868,16 +879,17 @@ a:active {
 	.bridge {
 		display:flex;
 		height: 7vw;
-		position: absolute;
-		top:19.5%;
+		position: relative;
+		top:80%;
 		align-items: center;
 		justify-content: center;
 		width: 100%;
+		border-radius: 0px;
 	}
 	.media_box {
 		width: 100%;
 		height:10vw;
-		border-radius:5px;
+		border-radius:0px;
 	}
 	.media_box a {
 		width:35px;
@@ -966,6 +978,7 @@ a:active {
 		font-size:1.6em;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 0px 0 0 0;
 		position:relative;
 		z-index:2;
@@ -1004,14 +1017,11 @@ a:active {
 	.footer {
 		font-size: 0.8em;
 	}
-	#parallax_1 {
-		background-size: 700px;
+	#cursor {
+		display:none;
 	}
-	#parallax_2 {
-		background-size: 600px;
-	}
-	#parallax_3 {
-		background-size: 70px;
+	#cursor2 {
+		display:none;
 	}
 }
 /*tablets, ipads (portrait)*/
@@ -1044,8 +1054,8 @@ a:active {
 	.bridge {
 		display:flex;
 		height: 7vw;
-		position: absolute;
-		top:21.5%;
+		position: relative;
+		top:75%;
 		align-items: center;
 		justify-content: center;
 		width: 100%;
@@ -1053,7 +1063,6 @@ a:active {
 	.media_box {
 		width: 100%;
 		height:10vw;
-		border-radius:5px;
 	}
 	.media_box a {
 		width:35px;
@@ -1142,6 +1151,7 @@ a:active {
 		font-size:1.6em;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 0px 0 0 0;
 		position:relative;
 		z-index:2;
@@ -1180,19 +1190,19 @@ a:active {
 	.footer {
 		font-size: 0.8em;
 	}
-	#parallax_1 {
-		background-size: 700px;
+	#cursor {
+		display:none;
 	}
-	#parallax_2 {
-		background-size: 600px;
-	}
-	#parallax_3 {
-		background-size: 70px;
+	#cursor2 {
+		display:none;
 	}
 }
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+	.body {
+		background-size: 700px, 400px, 20px;
+	}
 	.title {
 		margin: 15vw 0 15vw 0;
 	}
@@ -1221,7 +1231,7 @@ a:active {
 	.bridge {
 		display:flex;
 		height: 7vw;
-		position: absolute;
+		position: relative;
 		top:21.5%;
 		align-items: center;
 		justify-content: center;
@@ -1230,7 +1240,6 @@ a:active {
 	.media_box {
 		width: 100%;
 		height:10vw;
-		border-radius:5px;
 	}
 	.media_box a {
 		width:35px;
@@ -1319,6 +1328,7 @@ a:active {
 		font-size:1.6em;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 0px 0 0 0;
 		position:relative;
 		z-index:2;
@@ -1357,14 +1367,11 @@ a:active {
 	.footer {
 		font-size: 0.8em;
 	}
-	#parallax_1 {
-		background-size: 600px;
+	#cursor {
+		display:none;
 	}
-	#parallax_2 {
-		background-size: 500px;
-	}
-	#parallax_3 {
-		background-size: 60px;
+	#cursor2 {
+		display:none;
 	}
 }
 
@@ -1398,7 +1405,7 @@ a:active {
 	.bridge {
 		display:flex;
 		height: 7vw;
-		position: absolute;
+		position: relative;
 		top:21.5%;
 		align-items: center;
 		justify-content: center;
@@ -1407,7 +1414,6 @@ a:active {
 	.media_box {
 		width: 100%;
 		height:10vw;
-		border-radius:5px;
 	}
 	.media_box a {
 		width:20px;
@@ -1499,6 +1505,7 @@ a:active {
 		font-size:1.6em;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 0px 0 0 0;
 		position:relative;
 		z-index:2;
@@ -1537,14 +1544,11 @@ a:active {
 	.footer {
 		font-size: 0.8em;
 	}
-	#parallax_1 {
-		background-size: 500px;
+	#cursor {
+		display:none;
 	}
-	#parallax_2 {
-		background-size: 400px;
-	}
-	#parallax_3 {
-		background-size: 50px;
+	#cursor2 {
+		display:none;
 	}
 }
 
@@ -1578,7 +1582,7 @@ a:active {
 	.bridge {
 		display:flex;
 		height: 7vw;
-		position: absolute;
+		position: relative;
 		top:21.5%;
 		align-items: center;
 		justify-content: center;
@@ -1592,7 +1596,6 @@ a:active {
 	.media_box a {
 		width:25px;
 		height:25px;
-		border-radius:5px;
 	}
 	.media_icon {
 		width:25px;
@@ -1679,6 +1682,7 @@ a:active {
 		font-size:1.6em;
 	}
 	.proj_title a {
+		cursor:none;
 		margin: 15px 0 0 0;
 		position:relative;
 		z-index:2;
@@ -1717,13 +1721,11 @@ a:active {
 	.footer {
 		font-size: 0.8em;
 	}
-	#parallax_1 {
-		background-size: 400px;
+	#cursor {
+		display:none;
 	}
-	#parallax_2 {
-		background-size: 300px;
+	#cursor2 {
+		display:none;
 	}
-	#parallax_3 {
-		background-size: 50px;
-	}
+}
 

@@ -258,8 +258,6 @@ a:active {
 	margin: 5vw 0vw 0px 0px	;
 	
 }
-.start_box {
-}
 .title h1 {
 	margin: 0px;
 	font-size: 4em;
@@ -368,10 +366,11 @@ a:active {
 	display:flex;
     height: 7vw;
 	position: absolute;
-	top:83%;
+	top:41vw;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	z-index:2;
 }
 .media_box {
 	display:flex;
@@ -673,6 +672,9 @@ a:active {
 		width:50px;
 		height:50px;
 	}
+	.bridge {
+		top:45vw;
+	}
 	.service_icon {
 		height: 50px;
 	}
@@ -696,7 +698,7 @@ a:active {
 /*desktops - higher resolution*/
 @media (min-width: 1281px) and (max-width: 1600px) {
 	.bridge {
-		top:67%;
+		top:44vw;
 	}
 	.media_box {
 		width: 45%;
@@ -746,7 +748,7 @@ a:active {
 /*laptops, desktops*/
 @media (min-width: 1025px) and (max-width: 1280px) {
 	.bridge {
-		top:60%;
+		top:45vw;
 	}
 	.media_box a {
 		width:35px;
